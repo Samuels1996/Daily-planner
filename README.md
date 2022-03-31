@@ -11,3 +11,12 @@ The site offers color changing background for each time slot depending on if the
 Click the deployment link below and give it a shot!
 
 Deployment link:
+
+
+Mock-up:
+
+
+Acknowledgments: 
+
+Thank you to the following:
+
