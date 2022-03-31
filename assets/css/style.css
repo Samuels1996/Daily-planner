@@ -19,6 +19,7 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  background-color: #06aed5;
 }
 
 .description {
@@ -71,9 +72,18 @@ textarea {
 }
 
 .container {
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+.container li {
+  padding: 20px;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
 }
