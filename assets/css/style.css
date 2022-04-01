@@ -77,11 +77,9 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  flex-direction: column;
 }
 
-.container li {
-  padding: 20px;
-}
 
 footer {
   font-size: 10px;
