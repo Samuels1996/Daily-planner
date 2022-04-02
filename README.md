@@ -10,13 +10,24 @@ The site offers color changing background for each time slot depending on if the
 
 Click the deployment link below and give it a shot!
 
-Deployment link:
+Deployment link: https://samuels1996.github.io/Daily-planner/
 
 
-Mock-up:
+Mock-up: <img src='./assets/images/day-planner.png'>
 
 
 Acknowledgments: 
 
 Thank you to the following:
+
+Seamona Stewart 
+
+James Edwards
+
+Lina Choi
+
+Noah Brunner
+
+Eric Hurst
+
 

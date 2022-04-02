@@ -22,79 +22,79 @@ $(document).ready(function() {
 if ((moment().format('H')) > 8 ) {
     $('8hour').css('.past');
 } else if ((moment().format('H')) < 8) {
-    $('8hour').css('present');
-} else ((moment().format('H')) == 8) ;{
     $('8hour').css('.future');
+} else ((moment().format('H')) === 8) ;{
+    $('8hour').css('.present');
 }
 
 if ((moment().format('H')) > 9 ) {
-    $('9hour').css('background-color', 'gray');
+    $('9hour').css('.past');
 } else if ((moment().format('H')) < 9) {
-    $('9hour').css('background-color', 'green');
-} else ((moment().format('H')) == 9) ;{
-    $('9hour').css('background-color', 'red');
+    $('9hour').css('.future');
+} else ((moment().format('H')) === 9) ;{
+    $('9hour').css('.present');
 }
 
 if ((moment().format('H')) >10 ) {
     $('10hour').css('.past');
 } else if ((moment().format('H')) < 10) {
-    $('10hour').css('.present');
-} else ((moment().format('H')) == 10) ;{
     $('10hour').css('.future');
+} else ((moment().format('H')) === 10) ;{
+    $('10hour').css('.present');
 }
 
 if ((moment().format('H')) > 11 ) {
     $('11hour').css('.past');
 } else if ((moment().format('H')) < 11) {
-    $('11hour').css('.present');
-} else ((moment().format('H')) == 11) ;{
     $('11hour').css('.future');
+} else ((moment().format('H')) === 11) ;{
+    $('11hour').css('.present');
 }
 
 if ((moment().format('H')) > 12 ) {
     $('12hour').css('.past');
 } else if ((moment().format('H')) < 12) {
-    $('12hour').css('.present');
-} else ((moment().format('H')) == 12) ;{
     $('12hour').css('.future');
+} else ((moment().format('H')) === 12) ;{
+    $('12hour').css('.present');
 }
 
 if ((moment().format('H')) > 13 ) {
     $('13hour').css('.past');
 } else if ((moment().format('H')) < 13) {
-    $('13hour').css('.present');
-} else ((moment().format('H')) == 13) ;{
     $('13hour').css('.future');
+} else ((moment().format('H')) === 13) ;{
+    $('13hour').css('.present');
 }
 
 if ((moment().format('H')) > 14 ) {
     $('14hour').css('.past');
 } else if ((moment().format('H')) < 14) {
-    $('14hour').css('.present');
-} else ((moment().format('H')) == 14) ;{
     $('14hour').css('.future');
+} else ((moment().format('H')) === 14) ;{
+    $('14hour').css('.present');
 }
 
 if ((moment().format('H')) > 15 ) {
     $('15hour').css('.past');
 } else if ((moment().format('H')) < 15) {
-    $('15hour').css('.present');
-} else ((moment().format('H')) == 15) ;{
     $('15hour').css('.future');
+} else ((moment().format('H')) === 15) ;{
+    $('15hour').css('.present');
 }
 
 if ((moment().format('H')) > 16 ) {
     $('16hour').css('.past');
 } else if ((moment().format('H')) < 16) {
-    $('16hour').css('.present');
-} else ((moment().format('H')) == 16) ;{
     $('16hour').css('.future');
+} else ((moment().format('H')) === 16) ;{
+    $('16hour').css('.present');
 }
 
 if ((moment().format('H')) > 17 ) {
     $('17hour').css('.past');
 } else if ((moment().format('H')) < 17) {
-    $('17hour').css('.present');
-} else ((moment().format('H')) == 17) ;{
     $('17hour').css('.future');
+} else ((moment().format('H')) === 17) ;{
+    $('17hour').css('.present');
 }
