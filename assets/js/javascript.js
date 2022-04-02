@@ -12,6 +12,8 @@ $(document).ready(function() {
 
     $('.saveBtn').on('click', function() {
 
+        function.preventDefault();
+
         var input = $(this).siblings('.formList').val();
         var hour = $(this).siblings().attr('id');
 
@@ -97,4 +99,4 @@ if ((moment().format('H')) > 17 ) {
     $('17hour').css('.future');
 } else ((moment().format('H')) === 17) ;{
     $('17hour').css('.present');
-}
+};
