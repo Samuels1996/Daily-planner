@@ -35,7 +35,7 @@ if ((moment().format('H')) > 9 ) {
     $('9hour').css('.present');
 }
 
-if ((moment().format('H')) >10 ) {
+if ((moment().format('H')) > 10 ) {
     $('10hour').css('.past');
 } else if ((moment().format('H')) < 10) {
     $('10hour').css('.future');
